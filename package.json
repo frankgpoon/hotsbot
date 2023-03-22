@@ -1,0 +1,34 @@
+{
+  "name": "hotsbot",
+  "version": "1.0.0",
+  "description": "🔥",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npm i && node_modules/typescript/bin/tsc && node dist/index.js",
+    "build": "node_modules/typescript/bin/tsc",
+    "run": "node dist/index.js",
+    "clean": "rm -rf dist node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankgpoon/hotsbot.git"
+  },
+  "author": "Frank Poon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankgpoon/hotsbot/issues"
+  },
+  "homepage": "https://github.com/frankgpoon/hotsbot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "erlpack": "^0.1.4",
+    "typescript": "^4.7.4",
+    "utf-8-validate": "^6.0.3",
+    "winston": "^3.8.0",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.9"
+  }
+}
